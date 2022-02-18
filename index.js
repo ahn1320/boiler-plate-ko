@@ -14,7 +14,7 @@ mongoose.connect('mongodb+srv://jin:123@cluster0.rmpdv.mongodb.net/myFirstDataba
 }).then(() => console.log('MongoDB Connected...'))
   .catch(err => console.log(err))
 
-app.get('/', (req, res) => {res.send('Hello World!~~안녕하세요 ~ 새해복 많이 받으세요   ')})
+app.get('/', (req, res) => {res.send('Hello World!~~안녕하세요!')})
 
 app.post('/register', (req, res) => {
 
